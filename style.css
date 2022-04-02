@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html,
+body{
+    font-family: sans-serif;
+    height: 100%;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+li {
+    list-style-type: none;
+}
+
+    
+    
+  
+/* Navbar Start */
+#navbar{
+    background-color:#3944F7 ;
+ }
+ .navbar-content{
+     padding: 20px;
+     display: flex;
+     justify-content: space-between;
+ }
+ .navbar-list {
+     display: flex;
+     width: 500px;
+     justify-content: space-between;
+     
+ }
+     .bi-heart-fill {
+         color: red;
+         
+     }
+ .navbar-list li a {
+     font-size: 20px;
+    
+     transition all 0.5s ease-in-out;
+     padding: 10px;
+  }
+  .navbar-list li a:hover {
+
+    background-color: white;
+    color:#3944F7
+  }
+          /* Navbar End */
+
+          /* Product Page Start */
+          .cloths{
+              padding-top: 50px;
+              padding-bottom: 50px;
+              width: 100%;
+              /* background-color: grey; */
+              background-color: #3944F7;
+              display: flex;
+              justify-content: center;
+          }
+          .cloth-contener{
+              /* height: 20px; */
+              width: 80%;
+              /* background-color: red; */
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+
+
+          }
+          .title{
+              font-size: 25px;
+              font-weight:bold;
+              font-family: 'Segoe UI';
+              color: white;
+          }
+          .cloth-parent {
+              /* height: 200px; */
+              width: 100%;
+              /* background-color: green; */
+              margin-top: 30px;
+              display: flex;
+              justify-content: space-between;
+              flex-wrap: wrap;
+          }
+            
+              
+            
+          
+          .cloth {
+              width: 30%;
+              height: 400px;
+              /* background-color: yellow; */
+              /* background-image: url(https://rukminim2.flixcart.com/image/332/398/ki7qw7k0-0/kurta/u/t/y/l-pnk1066-pankvi-original-imafy2f5err33dxd.jpeg?q=50);
+              /* background-position: center; */
+              background-repeat: no-repeat;
+              background-size: cover;
+              margin-bottom: 10px;
+            
+          }
+          .cloth1{
+              background-image: url(https://png.pngitem.com/pimgs/s/161-1613591_model-kurtis-png-transparent-png-download-model-kurtis.png);
+
+          }
+          .cloth2{
+              background-image: url(https://rukminim2.flixcart.com/image/332/398/ki7qw7k0-0/kurta/u/t/y/l-pnk1066-pankvi-original-imafy2f5err33dxd.jpeg?q=50);
+
+          }
+          .cloth3{
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS483AdrOUY9fCruxVKqF36jtqzIURtZ0BQt-JPuQjlQoabe_zf_dw0B1UPzqUeYgQihIE&usqp=CAU);
+
+          }
+          .cloth4{
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ4iYLGxXnu94DI1G3V_3rCMqt77IXjRWnW7eCz7hpu8jizui9fIzhCCO4NiPVoAdKFTA&usqp=CAU);
+
+          }
+          .cloth5{
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyHjMH9VJ9NFWIErzxb8__6N81Bycx45G6v6ACkmmenC8fhhA8V2X4ZeEcjZmAkd1jA4Q&usqp=CAU);
+
+          }
+          .cloth6{
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ4rkGT21m3_xqQOOmFO6F9jI87V8OmKqN_hVrXriOlNnP3cLzQ4DQ6lho4xwR-ImKnT8&usqp=CAU);
+
+          }
+          .electronics{
+              padding-top: 50px;
+              padding-bottom: 50px;
+              width: 100%;
+              /* background-color: grey; */
+              background-color:#3944F7;
+              display: flex;
+              justify-content: center;
+          }
+          .tech-contener{
+              /* height: 20px; */
+              width: 80%;
+              /* background-color: red; */
+              display: flex;
+              flex-direction: column;
+              align-items:center ;
+          }
+          .title{
+              font-size: 25px;
+              font-weight: bold;
+              font-family: 'Segoe UI';
+              color: white;
+
+          }
+          .electronic-parent{
+              /* height: 200px; */
+              width: 100%;
+              /* background-color: green; */
+              margin-top: 30px;
+              display: flex;
+              justify-content: space-between;
+              flex-wrap: wrap;
+          }
+          .electronic{
+              width: 30%;
+             height: 400px;
+             /* background-color: yellow; */
+             background-size: cover;
+             background-position: center;
+             margin-bottom: 10px;
+           }
+        .electronic1{
+            background-image: url(https://images.unsplash.com/photo-1602080858428-57174f9431cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80);
+
+        }
+        .electronic2{
+            background-image: url(https://cdn.pixabay.com/photo/2016/02/17/15/37/laptop-1205256__340.jpg);
+        }
+        .electronic3{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3b3X0knkevxQNHXrA-6aL9Ro7gnievaF37Q&usqp=CAU);
+
+        }
+        .electronic4{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaQAakRQ-xgf1UNVzGGNHTe6msM4olFnQt7uUC-sYNFBs5Oxb7A1mPskZg4JYlA1M8a3c&usqp=CAU);
+
+        }
+        .electronic5{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm6T9xeEoDwRz82sl1xqmXjQIx7VJhxK23_w&usqp=CAU);
+
+        }
+        .electronic6{
+            background-image: url(https://www.techadvisor.com/cmsdata/features/3679090/how_to_convert_jpg_to_pdf_thumb900_1-1.jpg);
+
+        }
+
+          
+          
+
+
+
+
+
+          /* Product Page End */
+
+
+          
+ 
+        /* Auth Page Start */
+         #auth {
+             width: 100%;
+             display: flex;
+             justify-content:space-evenly;
+             align-items: center;
+             border: 1px solid black;
+             
+             }
+        .login-form-wrapper,
+        .register-form-wrapper{
+            
+             width: 100%;
+             margin-top: 20px;
+             
+            }
+            .login-form-wrapper > h2,
+            .register-form-wrapper > h2 {
+                text-align: center;
+            }
+          
+        .login-form,
+        .register-form {
+            width: 100%;
+         }
+         .mb-3 {
+             margin-bottom:15px ;
+         }
+         input {
+             padding: 15px 10px;
+             width: 100%;
+             border-radius: 0px;
+             border: none;
+             border-bottom: 1px solid #3944F7;
+        
+         }
+         button {
+             padding: 10px;
+             width: 100%;
+             border: none;
+             background-color: #3944F7;
+             color: white;
+         }
+
+        
+        .auth-social-list{
+            display: flex;
+            justify-content: space-between;
+        }
+        .auth-social-list li{
+            font-size: 30px;
+        }
+
+          /* Auth Page End */
+
+        /* Footer start */
+         #footer {
+             background-color: #3944F7;
+             color: white;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             padding: 20px;
+         }
+         .footer-important-links >ul > li {
+             margin-bottom: 10px;
+             font-size: 20px;
+
+
+         }
+         .footer-social-icons-list >ul {
+             display: flex;
+             width: 200px;
+             justify-content: space-between;
+         }
+
+         .footer-social-icons-list >ul >li {
+           font-size: 30px;
+
+         }
+
+
+
+
+
+
+
+         /* Footer Ends */
+
+
+
+
+
+  
